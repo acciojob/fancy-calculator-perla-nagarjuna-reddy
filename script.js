@@ -2,5 +2,8 @@
 var a = prompt();
 
 var b = prompt();
-var c =a*2+b;
+ var num1 = parseInt(a);
+ var num2 = parseInt(b);
+
+var c =num1*2 + num2;
 alert("The final result is: "+c)
